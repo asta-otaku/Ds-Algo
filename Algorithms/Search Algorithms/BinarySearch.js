@@ -16,6 +16,7 @@ function binarySearch(arr, t) {
 }
 
 // console.log(binarySearch([1,3,5,6,8,10],8))
+// Both the normal and Recursive binary search algorithms have a linear search
 
 function recursiveBinarySearch(arr, t) {
   return search(arr, t, 0, arr.length - 1);
